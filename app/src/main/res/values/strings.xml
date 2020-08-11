@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Awning Manufacturer</string>
+    <string name="feedback">Feedback</string>
+    <string name="videos">Videos</string>
+    <string name="website">Website</string>
+    <string name="contacts">Contacts</string>
+    <string name="offers">Offers</string>
+    <string name="group_companies">Group Companies</string>
+    <string name="scc_registration">SCC Registration</string>
+    <string name="overview">Overview</string>
+    <string name="overviewContent"><![CDATA[We value the needs and the requirements of our patrons that\'s why our technocrats never compromise with quality, reliability and performance of products. We count on excellent product quality, consistency, technical support and eco-friendly product ranges to offer hem the best. Our office in D-20, Prashant Vihar, Rohini, Sector-14, Delhi-110085 Lead By Mr. Shreyans jain (BE). We draw on technical expertise and experience to boost the productivity of our customers, without compromising on quality and costs.]]></string>
+    <string name="who_are_you">Who are you</string>
+    <string name="loading">loading ...</string>
+    <string name="what_we_do">What We Do</string>
+    <string name="heading">Heading</string>
+    <string name="offer_content">Offer Content</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_email">Your Email</string>
+    <string name="your_mobile_no">Your Mobile No</string>
+    <string name="your_feedback">Your Feedback</string>
+</resources>

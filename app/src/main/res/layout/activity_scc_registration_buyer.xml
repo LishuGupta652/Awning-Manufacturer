@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Overview">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="SCC Registration Buyer"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/edtName"
+                    android:hint="@string/your_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:fontFamily="monospace"
+                    app:met_singleLineEllipsis="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/edtEmail"
+                    android:hint="@string/your_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:fontFamily="monospace"
+                    app:met_singleLineEllipsis="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/edtMobile"
+                    android:hint="@string/your_mobile_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:fontFamily="monospace"
+                    app:met_singleLineEllipsis="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/edtAddress"
+                    android:hint="Your Address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:fontFamily="monospace"
+                    app:met_singleLineEllipsis="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    />
+
+
+                <com.weiwangcn.betterspinner.library.BetterSpinner
+                    android:id="@+id/bsStates"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Select State"
+                    android:layout_alignParentStart="true"
+                    />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/edtCity"
+                    android:hint="City"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:fontFamily="monospace"
+                    app:met_singleLineEllipsis="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    />
+
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/edtPincode"
+                    android:hint="Pincode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:fontFamily="monospace"
+                    app:met_singleLineEllipsis="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    />
+
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/edtCompanyName"
+                    android:hint="Company Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:fontFamily="monospace"
+                    app:met_singleLineEllipsis="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    />
+
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/edtGstin"
+                    android:hint="GSTIN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:fontFamily="monospace"
+                    app:met_singleLineEllipsis="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    />
+
+
+
+
+                <Button
+                    android:id="@+id/btnRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_button"
+                    android:text="Register"
+                    android:layout_marginBottom="40dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textBlack"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

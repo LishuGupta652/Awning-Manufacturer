@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ten_max">10dp</dimen>
+    <dimen name="linear">25dp</dimen>
+    <dimen name="large">30sp</dimen>
+    <dimen name="medium">20sp</dimen>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnOverview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_button"
+                android:text="@string/overview"
+                android:textAllCaps="false"
+                android:textColor="@color/textBlack"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnSccRegistrationBuyer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_button"
+                android:text= "Scc Registration Buyer"
+                android:textAllCaps="false"
+                android:textColor="@color/textBlack"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnSccRegistrationSeller"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_button"
+                android:text="Scc Registration Seller"
+                android:textAllCaps="false"
+                android:textColor="@color/textBlack"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnGroupCompanies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_button"
+                android:text="@string/group_companies"
+                android:textAllCaps="false"
+                android:textColor="@color/textBlack"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnOffers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_button"
+                android:text="@string/offers"
+                android:textAllCaps="false"
+                android:textColor="@color/textBlack"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnWebsite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_button"
+                android:text="@string/website"
+                android:textAllCaps="false"
+                android:textColor="@color/textBlack"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnContacts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_button"
+                android:text="@string/contacts"
+                android:textAllCaps="false"
+                android:textColor="@color/textBlack"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnVideos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_button"
+                android:text="@string/videos"
+                android:textAllCaps="false"
+                android:textColor="@color/textBlack"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnFeedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_button"
+                android:text="@string/feedback"
+                android:textAllCaps="false"
+                android:textColor="@color/textBlack"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
